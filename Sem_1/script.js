@@ -99,9 +99,9 @@ const PI = 3.14;*/
 
 // 2. Создайте переменную с текстом 'java' и переменную с текстом 'script'. С помощью этих переменных и операции конкатенации строк выведите в консоль строку 'javascript'.
 
-const java = "java";
-const script = "script";
-console.log(java + script);
+// const java = "java";
+// const script = "script";
+// console.log(java + script);
 
 // 3. Создайте переменную с текстом 'hello' и переменную с текстом 'world'. С помощью этих переменных и операции конкатенации строк выведите в консоль строку 'hello world', желательно использовать бэктики (обратные кавычки).
 
@@ -143,3 +143,8 @@ console.log(java + script);
 
 // console.log(Number.MAX_SAFE_INTEGER);
 // const bigInt = 14324324432432324n;
+
+
+prompt("Please input your age", 18)
+alert("Please inform alert", 18)
+confirm("Please confirm", 18)
