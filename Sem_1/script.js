@@ -121,7 +121,6 @@ const PI = 3.14;*/
 
 // Тайминг: 15 минут.
 
-
 // Типы данных:
 
 // String
@@ -129,7 +128,7 @@ const PI = 3.14;*/
 // Boolean
 // undefined   let num;
 // null         let num = null;
-// Symbol     
+// Symbol
 // BigInt
 
 // Object
@@ -140,11 +139,17 @@ const PI = 3.14;*/
 // console.log(symbol2);
 // console.log(symbol == symbol2);
 
-
 // console.log(Number.MAX_SAFE_INTEGER);
 // const bigInt = 14324324432432324n;
 
+// prompt("Please input your age", 18);
+// alert("Please inform alert", 18);
+// confirm("Please confirm", 18);
+// let a = 5;
+// if (a) console.log(a);
+// let b = parseInt()
 
-prompt("Please input your age", 18)
-alert("Please inform alert", 18)
-confirm("Please confirm", 18)
+let x = 5;
+let y = 7;
+// if (x > y) alert("x больше y");
+x > y ? alert("x больше y") : alert("x меньше y");

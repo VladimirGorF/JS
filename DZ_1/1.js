@@ -15,4 +15,4 @@
 
 const degreesC = prompt("Введите температуру в цельсиях");
 const degreesF = (9 / 5) * degreesC + 32;
-alert(`Цельсий: ${degreesC}, Фаренгейт: ${degreesF}`);
+alert(`Цельсий: ${degreesC}, Фаренгейт: ${Math.trunc(degreesF)}`);
