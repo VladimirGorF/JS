@@ -14,4 +14,15 @@
 число 32.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+const dayNumber = Number(prompt("Please, input a number from 1 to 32!"));
+if (Math.trunc(dayNumber) === dayNumber && dayNumber > 0 && dayNumber < 32) {
+  let decade = 1;
+  if (dayNumber > 10 && dayNumber < 21) {
+    decade++;
+  } else if (dayNumber > 20) {
+    decade += 2;
+  }
+  console.log(`Число ${dayNumber} попадает в ${decade} декаду месяца.`);
+} else {
+  console.log("Неверное значение");
+}
