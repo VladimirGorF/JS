@@ -24,12 +24,14 @@
 */
 
 const number = Math.abs(Number(prompt("Ведите целое число")));
-if (number === Math.trunc(number)) {
+if (Number.isInteger(number)) {
+  let hundreds = Math.trunc((number % 1000) / 100);
+  let tens = Math.trunc((number % 100) / 10);
+  let units = Math.trunc(number % 10);
+  
   console.log(
-    `Количество сотен ${Math.trunc(
-      (number % 1000) / 100
-    )}, десятков ${Math.trunc((number % 100) / 10)}, единиц ${Math.trunc(
-      number % 10
-    )}`
+    `Количество сотен ${hundreds}, десятков ${tens}, единиц ${units}`
   );
-} else console.log("Вводите только целое число!"); // если пользователь все-таки забыл правила ввода чисел в Уточнении)
+} else {
+  console.log("Вводите только целое число!"); // если пользователь все-таки забыл правила ввода чисел в Уточнении)
+}

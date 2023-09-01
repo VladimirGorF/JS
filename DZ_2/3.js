@@ -15,7 +15,7 @@
 */
 
 const dayNumber = Number(prompt("Please, input a number from 1 to 32!"));
-if (Math.trunc(dayNumber) === dayNumber && dayNumber > 0 && dayNumber < 32) {
+if (Number.isInteger(dayNumber) && dayNumber > 0 && dayNumber < 32) {
   let decade = 1;
   if (dayNumber > 10 && dayNumber < 21) {
     decade++;
