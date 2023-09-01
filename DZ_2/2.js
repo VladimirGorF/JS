@@ -14,4 +14,4 @@ if (test === true) {
 */
 
 const test = confirm("У вас много денег?");
-test === true ? alert("Скоро будем у вас") : alert("До свидания.");
+test ? alert("Скоро будем у вас") : alert("До свидания.");
