@@ -18,4 +18,41 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
 Демонстрировать работы функций не обязательно.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+// function sumNumbers(num1, num2) {
+//   const res = num1 + num2;
+//   console.log(`Сумма чисел равна ${res}`);
+// }
+
+// function diffNumbers(num1, num2) {
+//   if (num1 >= num2) {
+//     const res = num1 - num2;
+//     console.log(`Разность чисел равна ${res}`);
+//   } else {
+//     const res = num2 - num1;
+//     console.log(`Разность чисел равна ${res}`);
+//   }
+// }
+
+// function multNumbers(num1, num2) {
+//   const res = num1 * num2;
+//   console.log(`Произведение чисел равно ${res}`);
+// }
+
+// function divNumbers(num1, num2) {
+
+//   if (num1 >= num2) {
+//     const res = num1 / num2;
+//     console.log(`Частное чисел равно ${res}`);
+//   } else {
+//     const res = num2 / num1;
+//     console.log(`Частное чисел равно ${res}`);
+//   }
+// }
+
+// const num1 = Number(prompt("Введите первое число"));
+// const num2 = Number(prompt("Введите второе число"));
+
+// sumNumbers(num1, num2);
+// diffNumbers(num1, num2);
+// multNumbers(num1, num2);
+// divNumbers(num1, num2);
