@@ -11,13 +11,13 @@
 
 // const salary = Number(prompt("Please input a number"));
 
-// if (!Number.isNaN(salary)) {
+// if (Number.isFinite(salary)) {
 //   salaryTaxFree(salary);
 // } else {
 //   console.log("Значение задано неверно");
 // }
 
 // function salaryTaxFree(number) {
-//   number = number * 0.87;
+//   number = (number * 0.87).toFixed(2);
 //   console.log(`Размер заработной платы за вычетом налогов равен ${number}.`);
 // }
