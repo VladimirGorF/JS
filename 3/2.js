@@ -9,4 +9,15 @@
 сообщение "Размер заработной платы за вычетом налогов равен N."
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+// const salary = Number(prompt("Please input a number"));
+
+// if (!Number.isNaN(salary)) {
+//   salaryTaxFree(salary);
+// } else {
+//   console.log("Значение задано неверно");
+// }
+
+// function salaryTaxFree(number) {
+//   number = number * 0.87;
+//   console.log(`Размер заработной платы за вычетом налогов равен ${number}.`);
+// }

@@ -10,4 +10,18 @@
 три числа. Проверять их не нужно.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+// const array = [];
+// alert("Приготовьтесь ввести 3 числа");
+// for (let index = 0; index < 3; index++) {
+//   array[index] = Number(prompt("Введите число"));
+// }
+
+// (function () {
+//   let max = -Infinity;
+//   array.forEach((element) => {
+//     if (element > max) {
+//       max = element;
+//     }
+//   });
+//   console.log(`Максимальное значение среди чисел ${array} равно ${max}`);
+// })();
