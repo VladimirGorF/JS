@@ -12,4 +12,8 @@ xxxx
 xxxxx
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+// let xAccum = '';
+// for (let i = 0; i < 20; i++) {
+//     xAccum += 'x'
+//     console.log(xAccum); 
+// }

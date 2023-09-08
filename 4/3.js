@@ -14,4 +14,18 @@
 не окажется, значит нужно будет вывести пустой массив.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+const array = [];
+for (let i = 0; i < 6; i++) {
+  array.push(Math.floor(Math.random() * 10));
+}
+console.log(array);
+console.log(array.reduce((acc, num) => acc + num));
+console.log(Math.min.apply(null, array));
+const newArray = [];
+
+for (let i = 0; i < array.length; i++) {
+  if (array[i] === 3) {
+    newArray.push(i);
+  }
+}
+console.log(newArray);
