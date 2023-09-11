@@ -3,6 +3,7 @@
 /*
 1. Необходимо вывести в консоль массив продуктов в котором есть хоть одна
 фотография, используя метод filter. Исходные данные - массив products.
+
 2. Необходимо отсортировать массив products используя метод sort по цене,
 начиная с самой маленькой, заканчивая самой большой ценой, после чего вывести
 отсортированный массив в консоль.
@@ -31,4 +32,15 @@ const products = [
   },
 ];
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+const photoArray = products.filter((item) => {
+  if (item.photos && item.photos.length > 0) return true;
+});
+console.log(photoArray);
+
+function comparePrice(a, b) {
+  if (a.price > b.price) return 1;
+  if (a.price === b.price) return 0;
+  if (a.price < b.price) return -1;
+}
+
+console.log(products.sort(comparePrice));
