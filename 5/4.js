@@ -34,7 +34,7 @@ const products = [
 
 const photoArray = products.filter((item) => {
   if (item.photos && item.photos.length > 0) return true;
-});
+}); // return item.photos && item.photos.length > 0
 console.log(photoArray);
 
 function comparePrice(a, b) {
